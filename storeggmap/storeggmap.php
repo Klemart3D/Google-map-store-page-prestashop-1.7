@@ -290,7 +290,7 @@ class Storeggmap extends Module implements WidgetInterface
                 'defaultLong' => Configuration::get('STORE_GGMAP_LONG'),
                 'ggApiKey' => $apikey,
 		'customized_map' => json_decode(Configuration::get('STORE_GGMAP_CUSTOM')),
-	    	'subtitle' => $this->l('Our stores'),
+	    	'subtitle' => $this->l('Our schedules'),
             ));
         }
     }
